@@ -22,11 +22,11 @@ rod = vp.cylinder(
 dt = 0.005
 t = 0
 T = 20
-# k = 10
+k = 10
 k = lambda t: np.sin(t)
 d = 4
-g = -9.81 * 0
-drag_coefficient = 0.001 * 0
+g = -9.81 * 0.001
+drag_coefficient = 0.003
 
 # A plot
 kinetic = vp.gcurve(color=vp.color.blue)
