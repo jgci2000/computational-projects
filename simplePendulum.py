@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 from matplotlib import *
 
-a=2
+a = 2
 
 def fNoSpring(theta, T, m, g):
     d2x = (T / m) * np.cos(theta)
